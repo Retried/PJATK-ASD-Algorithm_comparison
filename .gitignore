@@ -1,0 +1,5 @@
+.idea/
+__pycache__/
+random_arr.npy
+reverse_sorted_arr.npy
+sorted_arr.npy
