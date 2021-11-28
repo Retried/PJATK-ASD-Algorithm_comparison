@@ -42,7 +42,7 @@ def MergeSort_TimeTest(name):
     return "ERROR"
 
 
-def Sort2_TimeTest(name):
+def CountSort_TimeTest(name):
     arr = np.load(name)
     begin = time.time()
     CountSort(arr)
@@ -68,6 +68,6 @@ print(f'Sorted: \t {MergeSort_TimeTest("sorted_arr.npy")} sec')
 print(f'Reversed: \t {MergeSort_TimeTest("reverse_sorted_arr.npy")} sec')
 
 print("\nCountSort")
-print(f'Random: \t {Sort2_TimeTest("random_arr.npy")} sec')
-print(f'Sorted: \t {Sort2_TimeTest("sorted_arr.npy")} sec')
-print(f'Reversed: \t {Sort2_TimeTest("reverse_sorted_arr.npy")} sec')
+print(f'Random: \t {CountSort_TimeTest("random_arr.npy")} sec')
+print(f'Sorted: \t {CountSort_TimeTest("sorted_arr.npy")} sec')
+print(f'Reversed: \t {CountSort_TimeTest("reverse_sorted_arr.npy")} sec')
