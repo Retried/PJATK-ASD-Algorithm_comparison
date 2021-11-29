@@ -18,7 +18,7 @@ def QS_TimeTest(name):
     QuickSort(arr)
     end = time.time()
     if sorted(arr):
-        return end - begin
+        return round(end - begin, 4)
     return "ERROR"
 
 
@@ -28,7 +28,7 @@ def HeapSort_TimeTest(name):
     HeapSort(arr)
     end = time.time()
     if sorted(arr):
-        return end - begin
+        return round(end - begin, 4)
     return "ERROR"
 
 
@@ -38,7 +38,7 @@ def MergeSort_TimeTest(name):
     MergeSort(arr)
     end = time.time()
     if sorted(arr):
-        return end - begin
+        return round(end - begin, 4)
     return "ERROR"
 
 
@@ -48,7 +48,7 @@ def CountSort_TimeTest(name):
     CountSort(arr)
     end = time.time()
     if sorted(arr):
-        return end - begin
+        return round(end - begin, 4)
     return "ERROR"
 
 

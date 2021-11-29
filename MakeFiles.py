@@ -1,6 +1,6 @@
 import numpy as np
 
-size = 500000
+size = 1000000
 
 sorted_arr = np.arange(1, size)
 np.save("sorted_arr.npy", sorted_arr)
