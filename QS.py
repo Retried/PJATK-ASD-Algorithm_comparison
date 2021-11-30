@@ -28,17 +28,3 @@ def partition(arr, pivotIndex, min, max):
 
     arr[min], arr[i - 1] = arr[i - 1], arr[min]
     return i - 1
-
-
-'''
-def quicksort(arr):
-    if len(arr) <= 1:
-        return arr
-    pivot = random.choice(arr)
-
-    equal = [x for x in arr if x == pivot]
-    greater = [x for x in arr if x > pivot]
-    smaller = [x for x in arr if x < pivot]
-    
-    return quicksort(smaller)+equal+quicksort(greater)
-'''
